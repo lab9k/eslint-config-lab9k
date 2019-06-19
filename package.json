@@ -1,5 +1,5 @@
 {
-  "name": "@lab9k/eslint-config-lab9k",
+  "name": "@lab9k/eslint-config",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -34,7 +34,6 @@
     "eslint": ">=5.16.0",
     "eslint-plugin-import": ">=2.17.3",
     "eslint-plugin-node": ">=9.1.0",
-    "eslint-plugin-promise": ">=4.1.1",
-    "tape": ">=4.10.2"
+    "eslint-plugin-promise": ">=4.1.1"
   }
 }
