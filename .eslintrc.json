@@ -177,9 +177,9 @@
     "object-curly-spacing": ["error", "always"],
     "object-property-newline": [
       "error",
-      { "allowMultiplePropertiesPerLine": true }
+      { "allowAllPropertiesOnSameLine": true }
     ],
-    "one-var": ["error", { "initialized": "never" }],
+    "one-var": "error",
     "operator-linebreak": [
       "error",
       "after",
@@ -233,6 +233,7 @@
     "import/no-duplicates": "error",
     "import/no-named-default": "error",
     "import/no-webpack-loader-syntax": "error",
+    "import/prefer-default-export": "error",
 
     "node/no-deprecated-api": "error",
     "node/process-exit-as-throw": "error",
