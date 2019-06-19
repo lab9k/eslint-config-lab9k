@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-lab9k",
+  "name": "@lab9k/eslint-config-lab9k",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
