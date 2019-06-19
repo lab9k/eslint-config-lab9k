@@ -7,7 +7,20 @@
     "lint": "eslint . --config=.eslintrc.json",
     "test": "npm run lint && tape test/*.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lab9k/eslint-config-lab9k.git"
+  },
+  "homepage": "https://github.com/lab9k/eslint-config-lab9k",
+  "keywords": [
+    "eslint",
+    "config",
+    "eslint-config",
+    "lab9k",
+    "style",
+    "javascript",
+    "js"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -16,5 +29,12 @@
     "eslint-plugin-node": "^9.1.0",
     "eslint-plugin-promise": "^4.1.1",
     "tape": "^4.10.2"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0",
+    "eslint-plugin-import": ">=2.17.3",
+    "eslint-plugin-node": ">=9.1.0",
+    "eslint-plugin-promise": ">=4.1.1",
+    "tape": ">=4.10.2"
   }
 }
