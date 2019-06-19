@@ -1,5 +1,7 @@
 # eslint-config-lab9k
 
+eslint config for lab9k javascript projects.
+
 ## installation
 
 ```bash
